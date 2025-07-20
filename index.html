@@ -9,6 +9,15 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
+  <!-- Font Awesome CDN for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-pbU7m+ajOT+hwXuv3R8h8zXiqw2k6VPLb0T+mtW3ZlcH19Ld4vWrSzO4lsJz9T76GyDxQR+Nw6VQxFJgs0b+ig=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
   <style>
     * {
       margin: 0;
@@ -55,16 +64,6 @@
       margin-bottom: 20px;
     }
 
-    h2 {
-      font-size: 1.4rem;
-      color: #0d47a1;
-      background-color: #e3f2fd;
-      padding: 20px;
-      border-left: 6px solid #2196f3;
-      border-radius: 8px;
-      box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
-    }
-
     .image-center {
       display: flex;
       justify-content: center;
@@ -81,7 +80,52 @@
       border: 6px solid #fff;
       background: #eee;
     }
+
+    .contact-section {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 40px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .contact-section h2 {
+      color: #00796b;
+      margin-bottom: 15px;
+    }
+
+    .contact-section ul {
+      list-style-type: none;
+      padding-left: 0;
+      font-size: 1rem;
+    }
+
+    .contact-section li {
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 500;
+    }
+
+    .contact-section a {
+      color: #0d47a1;
+      text-decoration: none;
+    }
+
+    .contact-section a:hover {
+      text-decoration: underline;
+    }
+
+    /* Icon color */
+    .contact-section li i {
+      color: #2196f3;
+      font-size: 1.2rem;
+      min-width: 24px;
+      text-align: center;
+    }
   </style>
+
 </head>
 
 <body>
@@ -89,14 +133,21 @@
     <a href="about.html">About</a>
     <a href="Educational_qualification.html">Education</a>
   </nav>
+
   <div class="image-center">
     <img src="jeyam.jpg" alt="My Photo" class="profile-img">
   </div>
 
-  <h1>Hi, My name is Rayhan Ahmed Jeyam. My home district is Brahman Baria.</h1>
-
-  <h2>
-    "Did you know that the ‘I'm Feeling Lucky’ button on Google's homepage used to cost Google nearly $110 million a year in lost revenue, yet they never removed it? Do you know why 😁?"
-  </h2>
+  <h1>Hi, My name is Rayhan Ahmed Jeyam.</h1>
+  
+  <div class="contact-section">
+    <h2>Contact Me</h2>
+    <ul>
+      <li><i class="fas fa-phone"></i> <strong>Phone:</strong> +8801700656061</li>
+      <li><i class="fab fa-facebook"></i> <strong>Facebook:</strong> <a href="https://facebook.com/rayhanahmed.rayhanahmed.7330" target="_blank">rayhanahmed.rayhanahmed.7330</a></li>
+      <li><i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/rayhan-ahmed-jeyam-10a279316/" target="_blank">rayhan-ahmed-jeyam-10a279316</a></li>
+      <li><i class="fab fa-github"></i> <strong>GitHub:</strong> <a href="https://github.com/Rayhan-Ahmed108" target="_blank">Rayhan-Ahmed108</a></li>
+    </ul>
+  </div>
 </body>
 </html>
