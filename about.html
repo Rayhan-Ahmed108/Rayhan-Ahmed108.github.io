@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="style/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
-        <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="Educational_qualification.html">Education</a>
-  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-        <h1>About Me</h1>
-        <ul>
-            <li>My name is Rayhan Ahmed Jeyam, and my nickname is Jeyam.</li>
-            <li>I have two younger brothers: Jihad and Siam.</li>
-            <li>My home district is Brahmanbaria.</li>
-            <li>Brahmanbaria District is located in the Chittagong Division of Bangladesh, near the border of India's Tripura to the east and beside the Meghna River to the west.</li>
-            <li>I am currently studying in the 2nd year, 2nd semester of Computer Science and Engineering at the University of Rajshahi.</li>
-            <li>I am a competitive programmer and I love logical thinking. I enjoy exploring and learning new things.</li>
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="Educational_qualification.html">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="skill.html">Skill</a></li>
         </ul>
+      </div>
     </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1 class="mb-4">About Me</h1>
+    <ul class="list-group">
+      <li class="list-group-item">My name is Rayhan Ahmed Jeyam, and my nickname is Jeyam.</li>
+      <li class="list-group-item">I have two younger brothers: Jihad and Siam.</li>
+      <li class="list-group-item">My home district is Brahmanbaria.</li>
+      <li class="list-group-item">Brahmanbaria District is located in the Chittagong Division of Bangladesh, near the border of India's Tripura to the east and beside the Meghna River to the west.</li>
+      <li class="list-group-item">I am currently studying in the 2nd year, 2nd semester of Computer Science and Engineering at the University of Rajshahi.</li>
+      <li class="list-group-item">I am a competitive programmer and I love logical thinking. I enjoy exploring and learning new things.</li>
+    </ul>
+  </div>
+
+  <!-- Bootstrap JS Include (optional but useful for dropdowns, modals, etc.) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
